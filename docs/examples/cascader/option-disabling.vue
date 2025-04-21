@@ -7,7 +7,7 @@ const options = [
   {
     value: 'guide',
     label: 'Guide',
-    disabled: true,
+    disabled: false,
     children: [
       {
         value: 'disciplines',
@@ -50,7 +50,7 @@ const options = [
   {
     value: 'component',
     label: 'Component',
-    children: [
+    children: [      
       {
         value: 'basic',
         label: 'Basic',
